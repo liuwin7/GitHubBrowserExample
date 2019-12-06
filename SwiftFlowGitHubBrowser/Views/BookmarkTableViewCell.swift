@@ -10,7 +10,10 @@ import Foundation
 import ListKit
 import OctoKit
 
-class BookmarkTableViewCell: UITableViewCell, ListKitCellProtocol {
+class BookmarkTableViewCell: UITableViewCell, ListKitCellProtocol {    
+    typealias CellType = Bookmark
+    
+    
     var model: Bookmark? {
         didSet {
             if let repository = model?.routeSpecificData as? Repository {

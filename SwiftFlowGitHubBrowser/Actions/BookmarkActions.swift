@@ -11,6 +11,6 @@ import ReSwift
 import ReSwiftRouter
 
 struct CreateBookmark: Action {
-    let route: [RouteElementIdentifier]
+    let route: [RouteElement]
     let routeSpecificData: Any?
 }

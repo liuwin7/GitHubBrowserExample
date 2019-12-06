@@ -972,6 +972,7 @@
 				TargetAttributes = {
 					25BB761C1C3CB8CB008EA13B = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2VT976F4CH;
 						LastSwiftMigration = 0800;
 					};
 					62EF0A741C700C2300D13711 = {
@@ -986,6 +987,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -1704,13 +1706,14 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2VT976F4CH;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)/**",
 					"$(SRCROOT)/Carthage/Build/iOS/**",
 				);
 				INFOPLIST_FILE = SwiftFlowGitHubBrowser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Swift-Flow.SwiftFlowGitHubBrowser";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.raymedy-china.SwiftFlowGitHubBrowser";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -1721,13 +1724,14 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2VT976F4CH;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)/**",
 					"$(SRCROOT)/Carthage/Build/iOS/**",
 				);
 				INFOPLIST_FILE = SwiftFlowGitHubBrowser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Swift-Flow.SwiftFlowGitHubBrowser";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.raymedy-china.SwiftFlowGitHubBrowser";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
